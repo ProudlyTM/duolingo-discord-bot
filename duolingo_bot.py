@@ -12,7 +12,7 @@ load_dotenv()
 client = discord.Client()
 dt = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
-phrase = ['phrase1', 'phrase2', 'phrase3']
+phrase = ['phrase1', 'phrase2', 'phrase3', '...', 'phraseN']
 
 async def func():
     c = client.get_channel(SERVER_CHANNEL_ID_GOES_HERE)
